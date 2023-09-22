@@ -1,0 +1,122 @@
+.Team {
+  height: 600px;
+  // background-color: aqua;
+}
+.team-p1 {
+  color: #2c2d2e;
+  text-align: center;
+  font-feature-settings: "clig" off, "liga" off;
+
+  font-family: Montserrat;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 40px;
+}
+.team-cards {
+  width: 220px;
+  height: 400px;
+}
+.team-cards p {
+  text-align: center;
+}
+.team-p2 {
+  color: #2c2d2e;
+  font-feature-settings: "clig" off, "liga" off;
+
+  font-family: Montserrat;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+}
+.team-p3 {
+  color: var(--color-text-secondary, #919399);
+  text-align: center;
+  font-feature-settings: "clig" off, "liga" off;
+
+  /* fontFootnote */
+  font-family: Montserrat;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 13px; /* 100% */
+}
+.team-p4 {
+  color: var(--color-text, #2c2d2e);
+  text-align: center;
+  font-feature-settings: "clig" off, "liga" off;
+
+  /* fontFootnote */
+  font-family: Montserrat;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 13px; /* 100% */
+}
+.team-p5 {
+  color: var(--color-text, #2c2d2e);
+  text-align: center;
+  font-feature-settings: "clig" off, "liga" off;
+
+  /* fontFootnote */
+  font-family: Montserrat;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 13px; /* 100% */
+}
+.team-p6 {
+  color: var(--color-text, #2c2d2e);
+  text-align: center;
+  font-feature-settings: "clig" off, "liga" off;
+
+  font-family: Montserrat;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 13px;
+}
+.team-obj1 {
+  display: flex;
+  gap: 20px;
+}
+.team-btn2 {
+  color: var(--color-primary, #ef7c00);
+  text-align: center;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Montserrat;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  display: flex;
+  padding: 10px 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border: none;
+  margin: 30px 0px 0px 520px;
+}
+@media (max-width: 1144px) {
+  .team-obj1 {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .team-btn2 {
+    display: none;
+  }
+  .Team {
+    height: 1000px;
+  }
+}
+@media (max-width: 740px) {
+  .Team {
+    height: 1300px;
+  }
+}
+@media (max-width: 500px) {
+  .Team {
+    height: 2300px;
+  }
+}

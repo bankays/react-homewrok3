@@ -1,0 +1,114 @@
+.Product {
+  height: 600px;
+  // background-color: aqua;
+}
+.product-p1 {
+  color: #2c2d2e;
+  text-align: center;
+  font-feature-settings: "clig" off, "liga" off;
+
+  /* H1 */
+  font-family: Montserrat;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 40px; /* 125% */
+}
+.product-btn1 {
+  height: 38px;
+  padding: 10px 20px;
+
+  gap: 10px;
+  color: var(--color-primary, #ef7c00);
+  text-align: center;
+  font-feature-settings: "clig" off, "liga" off;
+  border-radius: 61px;
+  border: 1px solid var(--color-border, rgba(0, 16, 61, 0.12));
+  font-family: Montserrat;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 13px;
+}
+.product-btn2 {
+  height: 38px;
+  padding: 10px 20px;
+
+  gap: 10px;
+  color: var(--color-primary, #fff);
+  background-color: #ef7c00;
+  text-align: center;
+  font-feature-settings: "clig" off, "liga" off;
+  border-radius: 61px;
+  border: 1px solid var(--color-border, rgba(0, 16, 61, 0.12));
+  font-family: Montserrat;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 13px;
+}
+.product-btn3 {
+  height: 38px;
+  padding: 10px 20px;
+
+  gap: 10px;
+  color: var(--color-primary, #ef7c00);
+  text-align: center;
+  font-feature-settings: "clig" off, "liga" off;
+  border-radius: 61px;
+  border: 1px solid var(--color-border, rgba(0, 16, 61, 0.12));
+  font-family: Montserrat;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 13px;
+}
+.product-group-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  padding-bottom: 50px;
+}
+.Product {
+  .slick-dots {
+    margin: -200px 0px 0px 550px;
+  }
+}
+.a-i {
+  width: 100%;
+}
+@media (max-width: 853px) {
+  .Product {
+    .slick-dots {
+      margin: -200px 0px 0px 300px;
+    }
+  }
+}
+@media (max-width: 610px) {
+  .Product {
+    .slick-dots {
+      margin: -330px 0px 0px 270px;
+    }
+  }
+}
+@media (max-width: 473px) {
+  .Product {
+    .slick-dots {
+      margin: -330px 0px 0px 110px;
+    }
+  }
+  .product-group-buttons {
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+}
+@media (max-width: 390px) {
+  .Product {
+    .slick-dots {
+      margin: -420px 0px 0px 110px;
+    }
+  }
+  .Product {
+    height: 400px;
+  }
+}

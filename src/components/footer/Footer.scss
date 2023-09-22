@@ -1,0 +1,121 @@
+.Footer {
+  height: 400px;
+  background-color: #00103d0f;
+}
+.f-s {
+  margin: 0px 0px 0px 950px;
+}
+.f-p1 {
+  color: var(--color-text, #2c2d2e);
+  font-feature-settings: "clig" off, "liga" off;
+
+  /* H2 */
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28px; /* 116.667% */
+}
+.f-p2 {
+  color: var(--color-text, #2c2d2e);
+  font-feature-settings: "clig" off, "liga" off;
+
+  /* H3 */
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+}
+.f-left {
+  display: flex;
+  gap: 90px;
+}
+.f-p3 {
+  color: var(--color-primary, #ef7c00);
+  font-feature-settings: "clig" off, "liga" off;
+
+  /* H3 */
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+}
+.f-p4 {
+  color: var(--color-text, #2c2d2e);
+  font-feature-settings: "clig" off, "liga" off;
+
+  /* H4 */
+  font-family: Montserrat;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px; /* 133.333% */
+}
+.f-obj {
+  display: flex;
+  gap: 90px;
+}
+.f-right {
+  display: flex;
+  gap: 90px;
+}
+#backtop {
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: 900;
+  background-color: rgb(135, 238, 140);
+  box-shadow: 4px 4px 12px 2px rgba(0, 0, 0, 0.2);
+  color: #333;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  position: fixed;
+  right: 20px;
+  bottom: 50px;
+  cursor: pointer;
+  z-index: 99;
+  transition: 0.6s !important;
+}
+@media (max-width: 1125px) {
+  .jjj {
+    margin: 20px 0px 0px 80px;
+  }
+  .f-s {
+    margin: 0px 0px 0px 600px;
+  }
+}
+@media (max-width: 1042px) {
+  .f-obj {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .Footer {
+    height: 700px;
+  }
+}
+@media (max-width: 757px) {
+  .f-s {
+    margin: -90px 0px 0px 400px;
+  }
+}
+@media (max-width: 561px) {
+  .f-s {
+    display: none;
+  }
+  .f-left {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .f-right {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .Footer {
+    height: 1400px;
+  }
+}
